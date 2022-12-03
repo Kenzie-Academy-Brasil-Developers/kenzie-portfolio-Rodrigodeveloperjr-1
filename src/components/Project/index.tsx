@@ -57,7 +57,7 @@ export const Project = (): JSX.Element => {
 
           {repository.language && (
             <ProjectStack>
-              <Text type="body2">Linguagem:</Text>
+              <Text type="body2">Languages:</Text>
               <ProjectStackTech>
                 <Text color="brand1" type="body2">
                   {repository.language}
@@ -75,7 +75,7 @@ export const Project = (): JSX.Element => {
             </ProjectLink>
             {repository.homepage && (
               <ProjectLink target="_blank" href={repository.homepage}>
-                <FaShare /> Aplicação
+                <FaShare /> Application
               </ProjectLink>
             )}
           </ProjectLinks>
